@@ -7,9 +7,9 @@ public class DBUtil {
 
     public static Connection getConnection() throws Exception {
         return DriverManager.getConnection(
-            "jdbc:postgresql://localhost:5432/lab6",
+            "jdbc:postgresql://localhost:5432/testdb",
             "postgres",
-            "password"
+            "Devilking147"
         );
     }
 }
